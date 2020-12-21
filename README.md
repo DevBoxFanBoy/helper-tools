@@ -2,8 +2,8 @@
 Some helper tools
 
 * csv-formating
-** format csv second column with double quotes
-** Usage:
+  * format csv second column with double quotes
+  * Usage:
 ```
 ./csv_formating.sh example.csv res.csv
 
@@ -14,8 +14,8 @@ blaPlugin2,"2.2.4"
 ```
 
 * tf-aws
-** different tf templates
-** Usage:
+  * different tf templates
+  * Usage:
 ```
 ./tf-aws-vpc.sh main 10.0.0.0/16 res.tf
 
@@ -24,4 +24,3 @@ resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
 }
 ```
-
